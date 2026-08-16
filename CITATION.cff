@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If Praxis Atlas supports your work, cite the repository and the specific catalog version you used."
+title: "Praxis Atlas"
+type: software
+authors:
+  - name: "raphaelmarra"
+    website: "https://github.com/raphaelmarra"
+repository-code: "https://github.com/raphaelmarra/praxis-atlas"
+url: "https://github.com/raphaelmarra/praxis-atlas"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-16
+keywords:
+  - methodology
+  - method engineering
+  - decision support
+  - agent skills
