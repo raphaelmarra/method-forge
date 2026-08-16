@@ -52,6 +52,12 @@ Use this schema when adding or deeply researching a method:
 
 For a discovery catalog, the compact fields `type`, `purpose`, `use`, `avoid`, `complements`, and `source anchor` are sufficient. Expand only shortlisted methods.
 
+Write the boundaries as decision rules, not slogans:
+
+- `Use when` should name a context signal, the minimum precondition, and the output the method will produce.
+- `Do not use when` should name a failed assumption, an incompatible output, an authority/validity boundary, or a safer/appropriate alternative.
+- State a disadvantage elsewhere only when it does not determine method fit. Do not turn every cost into a prohibition.
+
 ## Context triage
 
 ### Problem topology

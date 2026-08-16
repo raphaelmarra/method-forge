@@ -64,6 +64,22 @@ Use one generic statistical, causal, process, or evidence card as the canonical 
 
 This preserves discoverability without maintaining competing definitions. It also lets Situational Method Engineering compose a generic fragment with domain-specific gates and artifacts.
 
+### Canonical family examples
+
+| Family | Canonical owner | Secondary routing or specialization |
+| --- | --- | --- |
+| Probability, sampling, estimation, generic statistical inference | `37-probability-statistics-inference.md` | decision uncertainty in `08`; process control in `03`; spatial methods in `33`; clinical evidence in `35` |
+| Decision analysis, optimization, causal identification | `08-decision-optimization-causality.md` | finance in `12`; policy evaluation in `13`; education evaluation in `18` |
+| Theory of Change / logic model | `08-decision-optimization-causality.md` | strategy framing in `02`; policy/program evaluation in `13`; learning evaluation in `18` |
+| Design discovery and convergence | `02-strategy-product-organization.md` | design execution in `20`; innovation/R&D in `28` |
+| Experimental design / DOE | `37-probability-statistics-inference.md` | process/energy in `15`; innovation and technology maturation in `28`; agriculture in `17` |
+| API workflow description / Arazzo | `04-software-systems-architecture.md` | formal planning and orchestration in `05` |
+| Project controls / EVM | `30-project-programme-portfolio-management.md` | investment or financial appraisal in `12` |
+| Human-centred design | `20-design-experience-communication.md` | safety-critical human factors and medical devices in `35` |
+| Place-based analysis | `38-urban-territorial-planning.md` | financial appraisal in `12`; geospatial evidence in `33` |
+
+The secondary entry must state what it inherits and what changes. A repeated name without that distinction is a routing defect, even when the method is genuinely relevant in both domains.
+
 ## Reusable stack patterns
 
 ### Improve a stable process

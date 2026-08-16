@@ -108,6 +108,8 @@ Read only the files needed:
 
 For a cross-domain problem, begin with the primary decision catalog and at most two adjacent domain catalogs. Add another only when a selected fragment is canonically owned there or a material hard gate remains uncovered. Route by decision and missing capability, not by every noun in the prompt. `references/10-composition-patterns.md` and `references/11-source-registry.md` do not count as domain catalogs. Do not load all references by default.
 
+When a prompt says only “uncertainty,” identify the required output before routing: probability/statistical inference, decision choice, optimization, causal effect, forecast, risk treatment, or evidence confidence. Route statistical/probabilistic inference to `37`; route choices, optimization, causal identification, and decision robustness to `08`. Use both only when the statistical result is an input to a distinct decision or causal design.
+
 ### 3. Build a role-aware longlist
 
 Search by problem signal, deliverable, and failure mode—not only by familiar names. Include candidates from distinct roles where warranted:
