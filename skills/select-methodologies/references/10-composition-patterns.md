@@ -56,6 +56,14 @@ next: consumers and compatible successor fragments
 
 Reject a composition when the output of one fragment does not satisfy the next fragment's input semantics, even if field names appear to match.
 
+## Canonical ownership and cross-catalog routing
+
+Use one generic statistical, causal, process, or evidence card as the canonical owner. Add a secondary routing alias when another domain needs to discover it. Create a specialization only when the domain changes the unit of analysis, authority, estimand, measurement system, evidence requirements, or validation/failure modes.
+
+`object type → primary output/decision → canonical owner → secondary facets/aliases → domain specialization only for changed validity boundary`
+
+This preserves discoverability without maintaining competing definitions. It also lets Situational Method Engineering compose a generic fragment with domain-specific gates and artifacts.
+
 ## Reusable stack patterns
 
 ### Improve a stable process

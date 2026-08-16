@@ -4,7 +4,7 @@
 
 Method Forge helps people and AI agents turn underspecified problems into small, defensible method stacks. It distinguishes methodologies from frameworks, standards, techniques, representations, assurance mechanisms, artifacts, and metrics before comparing them.
 
-The repository currently covers 35 domain and cross-domain catalogs, from strategy, software, evidence, and AI to finance, law, sustainability, supply chains, health, assets, geospatial analysis, and construction.
+The repository currently covers 36 domain and cross-domain catalogs, from strategy, software, evidence, statistics, and AI to finance, law, sustainability, supply chains, health, assets, geospatial analysis, and construction.
 
 ## Why it exists
 
@@ -41,6 +41,7 @@ The skill can also trigger implicitly for methodology discovery, comparison, com
 
 - [Taxonomy and selection protocol](skills/select-methodologies/references/00-taxonomy-selection.md)
 - [Method engineering and composition patterns](skills/select-methodologies/references/10-composition-patterns.md)
+- [Probability, statistics, and inference](skills/select-methodologies/references/37-probability-statistics-inference.md)
 - [Primary source and status registry](skills/select-methodologies/references/11-source-registry.md)
 - [Repository architecture](docs/architecture.md)
 - [Contribution guide](CONTRIBUTING.md)

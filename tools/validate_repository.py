@@ -73,7 +73,7 @@ def main() -> int:
     check(len(skill_text.splitlines()) < 500, "SKILL.md exceeds progressive-disclosure limit", errors)
 
     reference_files = sorted(REFERENCES.glob("*.md")) if REFERENCES.is_dir() else []
-    check(len(reference_files) == 37, f"Expected 37 reference files, found {len(reference_files)}", errors)
+    check(len(reference_files) == 38, f"Expected 38 reference files, found {len(reference_files)}", errors)
     routed = set(ROUTE_PATTERN.findall(skill_text))
     actual = {path.name for path in reference_files}
     check(routed == actual, f"Routing mismatch: missing={sorted(actual-routed)}, unknown={sorted(routed-actual)}", errors)

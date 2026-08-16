@@ -75,6 +75,7 @@ Read only the files needed:
 | Verification, testing, reliability, safety, security, or assurance | `references/06-testing-reliability-safety-security.md` |
 | Data/information governance, metadata, semantics, knowledge management, data quality, lineage, or provenance | `references/07-data-information-knowledge.md` |
 | Decision analysis, optimization, uncertainty, or causal inference | `references/08-decision-optimization-causality.md` |
+| Probability, statistics, sampling, estimation, prediction, or statistical inference | `references/37-probability-statistics-inference.md` |
 | ML lifecycle, LLMs, agents, evaluation, AI governance, or AI security | `references/09-ai-ml-agents.md` |
 | Combine methods into one coherent operating system | `references/10-composition-patterns.md` |
 | Verify canonical owners, standards, and current status | `references/11-source-registry.md` |

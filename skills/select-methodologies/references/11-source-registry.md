@@ -100,6 +100,7 @@ Use this registry to begin research. Open the owner page and verify current stab
 | Digital open-source investigations | OHCHR *Berkeley Protocol on Digital Open Source Investigations* | professional protocol in a human-rights/legal context; reuse fragments with explicit tailoring |
 | MCDA | UK Government Analysis Function / Green Book guidance | authoritative public analytical guidance; choose technique contextually |
 | Causal evaluation | World Bank *Impact Evaluation in Practice*; PyWhy/DoWhy; primary econometrics literature | software workflow does not prove identification assumptions |
+| General statistics and probability | `itl.nist.gov/div898/handbook/`; ASA Ethical Guidelines; relevant primary design and measurement literature | generic statistical methods; verify domain, sampling, estimand, measurement, and jurisdictional requirements before use |
 
 ## Finance, markets, audit, and procurement
 

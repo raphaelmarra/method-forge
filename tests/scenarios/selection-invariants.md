@@ -26,6 +26,12 @@ These scenarios define behavioral expectations for future agent evaluations. The
 
 **Expected invariants:** Start with the primary investment or technology-maturation decision and no more than two adjacent domain catalogs. Expand only for a specific uncovered gate such as environmental validity, process safety, or supply-network feasibility.
 
+## Canonical ownership and secondary routing
+
+**Prompt:** Choose a statistical method for evaluating a clinical intervention with repeated measurements and missing observations.
+
+**Expected invariants:** Route generic sampling, missing-data, repeated-measures, and uncertainty methods to the statistics catalog; route clinical evidence, safety, and jurisdictional requirements to the health/medical-device catalog. Do not duplicate the generic method card. Create a health specialization only when the clinical estimand, authority, measurement system, or validation boundary changes.
+
 ## Subtraction test
 
 **Prompt:** Recommend a complete stack for an auditable public-source investigation.

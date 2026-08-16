@@ -116,6 +116,7 @@ When the same family appears in multiple catalogs, retrieve its generic definiti
 | Data governance, semantics, quality, lineage, provenance, and knowledge management | `07-data-information-knowledge.md` | AI data in `09`; evidence infrastructure in `31`; BIM information in `36` |
 | Research design, evidence synthesis, investigation, claims, and epistemic assurance | `31-research-evidence-investigation.md` | causal identification in `08`; journalism in `29`; legal research in `13` |
 | Experiments, causal inference, optimization, uncertainty | `08-decision-optimization-causality.md` | field designs in `17`; learning evaluation in `18`; process DOE in `15` |
+| Probability, statistics, sampling, estimation, prediction, and generic statistical inference | `37-probability-statistics-inference.md` | causal identification in `08`; evidence synthesis in `31`; spatial methods in `33`; process control in `03`; clinical/device evidence in `35` |
 | Financial appraisal, DCF, BoE, investment gates | `12-finance-market-audit-procurement.md` | TEA inputs in `15`; manufacturing cost/readiness evidence in `14` |
 | Market research, sizing, conjoint, WTP, commercial diligence | `12-finance-market-audit-procurement.md` | activation/positioning in `19`; research interaction/prototypes in `20` |
 | Marketing strategy, brand, GTM, channels, lifecycle, media measurement | `19-marketing-growth-brand-commercial.md` | market/economics in `12`; communication/experience in `20` |
@@ -140,6 +141,19 @@ When the same family appears in multiple catalogs, retrieve its generic definiti
 | Journalism, fact-checking, editorial verification | `29-journalism-verification-editorial-integrity.md` | generic evidence/OSINT in `31`; legal investigation in `13`; communication distribution in `27` |
 
 A specialization may change preconditions, experimental unit, authority, metric, or failure modes. Do not add both generic and specialized cards to the stack as if they were separate work unless each produces a distinct artifact.
+
+### Canonical ownership and multi-category routing
+
+Use faceted classification for discovery, but keep one canonical card for each generic method family.
+
+1. Classify the object type independently from its domain. A method, notation, standard, artifact, assurance mechanism, and metric may coexist in one stack without being alternatives.
+2. Identify the primary decision or output. Place the generic card in the catalog whose methods own that output and its selection logic.
+3. Check preconditions and failure modes. If a domain changes the unit of analysis, authority, evidence, measurement system, or validation, create a linked specialization in the domain catalog.
+4. Add secondary routing aliases when the method is useful elsewhere but its generic procedure and boundaries remain unchanged. Do not duplicate the full card.
+5. Treat synonyms and branded variants as aliases unless they change procedure, assumptions, outputs, governance, or evidence. A changed variant receives its own card and an explicit relationship to the canonical one.
+6. Apply the subtraction and interface tests: every copied or specialized entry must produce a distinct consumed output, and the link must state what is inherited versus changed.
+
+This is a lightweight application of faceted classification plus Situational Method Engineering: facets improve retrieval; canonical ownership prevents drift; situational tailoring handles real domain differences. Use SKOS relations only if the taxonomy becomes machine-maintained or needs interoperable broader/narrower/related links.
 
 ## Methodological-density gate
 
