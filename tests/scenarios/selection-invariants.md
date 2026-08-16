@@ -43,3 +43,9 @@ These scenarios define behavioral expectations for future agent evaluations. The
 **Prompt:** Recommend a complete stack for an auditable public-source investigation.
 
 **Expected invariants:** Every selected fragment must produce a distinct consumed output. The response should remove any element whose absence causes no material loss and preserve verified, rejected, and possible evidence states.
+
+## Repository model organization
+
+**Prompt:** Add or revise a method that could be relevant to more than one domain catalog.
+
+**Expected invariants:** Keep one canonical method definition, route secondary uses to that owner, and add a specialization only when the decision-relevant context changes. Update the relevant taxonomy or composition guidance, preserve a rationale in an ADR when the ownership boundary changes, and keep the dependency-free validator passing.

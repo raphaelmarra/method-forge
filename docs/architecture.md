@@ -12,7 +12,7 @@ The root documentation explains purpose, governance, contribution, citation, and
 
 ## Validation boundary
 
-The dependency-free repository validator checks package structure, frontmatter, local links, catalog headings, route integrity, placeholders, and duplicate ownership signals that can be detected mechanically. Human review remains responsible for methodological fit, evidence quality, proportionality, and jurisdiction.
+The dependency-free repository validator checks required package structure, frontmatter, local links, catalog headings, reference count, route integrity, and unresolved TODO markers. Canonical ownership and duplicate-method signals are reviewed through the taxonomy, composition patterns, architecture decisions, contribution checklist, and scenario contracts; the validator does not infer those judgments as facts. Human review also remains responsible for methodological fit, evidence quality, proportionality, and jurisdiction.
 
 ## Evolution
 

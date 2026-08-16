@@ -16,6 +16,8 @@ For every new or materially changed candidate:
 6. Separate definition/status evidence from effectiveness evidence.
 7. Record the date when volatile status, version, or jurisdiction was checked.
 
+If a method is relevant to more than one catalog, keep one canonical definition and route the secondary use to it. Add a domain specialization only when the estimand, authority, measurement system, validation boundary, or other decision-relevant context changes. Record that ownership and routing decision in the taxonomy or composition patterns when it is not obvious.
+
 Do not copy substantial third-party text. Summarize in original language and link to the source.
 
 ## Adding a domain
@@ -28,6 +30,7 @@ Laws, vendors, datasets, registries, rates, and platform features may constrain 
 
 - [ ] The change has one clear purpose.
 - [ ] Terminology is stable and does not duplicate an existing owner.
+- [ ] Any cross-catalog method has one canonical owner and an explicit secondary-routing decision.
 - [ ] Local links resolve.
 - [ ] Volatile claims include a check date.
 - [ ] Proprietary, emerging, contested, and draft material is labeled.

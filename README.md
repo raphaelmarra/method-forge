@@ -4,7 +4,7 @@
 
 Method Forge helps people and AI agents turn underspecified problems into small, defensible method stacks. It distinguishes methodologies from frameworks, standards, techniques, representations, assurance mechanisms, artifacts, and metrics before comparing them.
 
-The repository currently covers 37 domain and cross-domain catalogs, from strategy, software, evidence, statistics, and AI to finance, law, sustainability, supply chains, health, assets, geospatial analysis, and urban planning.
+The repository currently contains 39 reference catalogs: 37 domain and cross-domain catalogs, plus two meta-reference catalogs for taxonomy and source discovery. Coverage ranges from strategy, software, evidence, statistics, and AI to finance, law, sustainability, supply chains, health, assets, geospatial analysis, and urban planning.
 
 ## Why it exists
 
