@@ -1,14 +1,14 @@
-# Praxis Atlas
+# Method Forge
 
 **A practical knowledge base for selecting, combining, and validating methodologies.**
 
-Praxis Atlas helps people and AI agents turn underspecified problems into small, defensible method stacks. It distinguishes methodologies from frameworks, standards, techniques, representations, assurance mechanisms, artifacts, and metrics before comparing them.
+Method Forge helps people and AI agents turn underspecified problems into small, defensible method stacks. It distinguishes methodologies from frameworks, standards, techniques, representations, assurance mechanisms, artifacts, and metrics before comparing them.
 
 The repository currently covers 35 domain and cross-domain catalogs, from strategy, software, evidence, and AI to finance, law, sustainability, supply chains, health, assets, geospatial analysis, and construction.
 
 ## Why it exists
 
-Method selection often starts with a familiar acronym and ends with unnecessary process. Praxis Atlas starts with the decision, context, constraints, evidence needs, and failure modes. It then composes only the capabilities the problem requires.
+Method selection often starts with a familiar acronym and ends with unnecessary process. Method Forge starts with the decision, context, constraints, evidence needs, and failure modes. It then composes only the capabilities the problem requires.
 
 Its working principles are:
 
@@ -26,7 +26,7 @@ The installable skill lives at [`skills/select-methodologies`](skills/select-met
 With Codex, ask the skill installer to install:
 
 ```text
-https://github.com/raphaelmarra/praxis-atlas/tree/main/skills/select-methodologies
+https://github.com/raphaelmarra/method-forge/tree/main/skills/select-methodologies
 ```
 
 Then invoke it explicitly:
@@ -59,7 +59,7 @@ Continuous integration runs the same checks for every push and pull request.
 
 ## Status
 
-Praxis Atlas is an actively curated knowledge project. Source-status snapshots are starting points for live verification, not permanent claims of currency.
+Method Forge is an actively curated knowledge project. Source-status snapshots are starting points for live verification, not permanent claims of currency.
 
 ## License and citation
 

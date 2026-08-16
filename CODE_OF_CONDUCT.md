@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Praxis Atlas is built through rigorous disagreement conducted with respect.
+Method Forge is built through rigorous disagreement conducted with respect.
 
 Participants must:
 

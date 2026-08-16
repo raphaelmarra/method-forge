@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If Praxis Atlas supports your work, cite the repository and the specific catalog version you used."
-title: "Praxis Atlas"
+message: "If Method Forge supports your work, cite the repository and the specific catalog version you used."
+title: "Method Forge"
 type: software
 authors:
   - name: "raphaelmarra"
     website: "https://github.com/raphaelmarra"
-repository-code: "https://github.com/raphaelmarra/praxis-atlas"
-url: "https://github.com/raphaelmarra/praxis-atlas"
+repository-code: "https://github.com/raphaelmarra/method-forge"
+url: "https://github.com/raphaelmarra/method-forge"
 license: MIT
 version: 0.1.0
 date-released: 2026-08-16

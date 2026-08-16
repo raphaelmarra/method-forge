@@ -1,6 +1,6 @@
 # Security Policy
 
-Praxis Atlas is primarily a documentation and agent-skill repository. Security concerns may still include exposed credentials, unsafe automation instructions, dependency or workflow compromise, malicious links, and guidance that crosses a declared authority boundary.
+Method Forge is primarily a documentation and agent-skill repository. Security concerns may still include exposed credentials, unsafe automation instructions, dependency or workflow compromise, malicious links, and guidance that crosses a declared authority boundary.
 
 ## Reporting
 

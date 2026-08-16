@@ -1,6 +1,6 @@
 # Contributing
 
-Praxis Atlas welcomes corrections, stronger sources, clearer selection boundaries, new composition patterns, and domain coverage that passes the methodological-density gate.
+Method Forge welcomes corrections, stronger sources, clearer selection boundaries, new composition patterns, and domain coverage that passes the methodological-density gate.
 
 ## Contribution standard
 

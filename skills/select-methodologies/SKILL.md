@@ -3,7 +3,7 @@ name: select-methodologies
 description: Select, compare, research, combine, and operationalize methodologies, frameworks, standards, techniques, artifacts, and metrics across project/programme/portfolio management, product, process, operations, software, systems, data, knowledge, evidence, AI, finance, marketing, design, implementation, workforce, sales, content, journalism, innovation, law, policy, crisis, engineering, manufacturing, assets, geospatial analysis, construction, sustainability, supply chains, agriculture, health, and education. Use to discover/classify options, identify omissions, distinguish method-rich domains from laws/data/source collections, choose a fit-for-context stack, verify versions/jurisdictions, avoid overengineering, or deepen a chosen approach. Also use for Portuguese requests about metodologia, frameworks, gestão de projetos/programas/portfólio/processos, pesquisa, marketing, design, conteúdo, vendas, inovação, viabilidade, engenharia, regulação, logística, ativos, geoespacial, crise, or avaliação.
 ---
 
-# Praxis Atlas — Select Methodologies
+# Method Forge — Select Methodologies
 
 ## Objective
 

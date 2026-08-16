@@ -1,5 +1,5 @@
 interface:
-  display_name: "Praxis Atlas"
+  display_name: "Method Forge"
   short_description: "Select defensible methods for the problem"
   default_prompt: "Use $select-methodologies to compare, select, and operationalize methods for this problem."
   icon_small: assets/icon.svg

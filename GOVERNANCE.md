@@ -1,6 +1,6 @@
 # Governance
 
-Praxis Atlas uses maintainer-led, evidence-seeking governance.
+Method Forge uses maintainer-led, evidence-seeking governance.
 
 ## Roles
 

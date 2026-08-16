@@ -1,6 +1,6 @@
-# Praxis Atlas documentation
+# Method Forge documentation
 
-Praxis Atlas is both a curated methodological knowledge base and an installable agent skill.
+Method Forge is both a curated methodological knowledge base and an installable agent skill.
 
 Start with the [repository README](../README.md) for purpose and usage. Read the [architecture](architecture.md) to understand ownership and validation. The operational selection workflow lives in the [`select-methodologies` skill](../skills/select-methodologies/SKILL.md).
 

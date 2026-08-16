@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the Praxis Atlas repository without third-party dependencies."""
+"""Validate the Method Forge repository without third-party dependencies."""
 
 from __future__ import annotations
 

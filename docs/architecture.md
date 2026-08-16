@@ -1,6 +1,6 @@
 # Repository architecture
 
-Praxis Atlas has two audiences but one canonical knowledge source.
+Method Forge has two audiences but one canonical knowledge source.
 
 ## Human interface
 
