@@ -45,6 +45,17 @@ Use this catalog when repeatable work must be discovered, flowed, controlled, im
 | Quality Function Deployment (QFD) | needs-to-requirements translation method | customer needs must trace into prioritized design characteristics | substitute the “voice of customer” matrix for observed use and engineering trade-offs |
 | ISO 9001 | quality management system standard | organization-wide quality processes, audit, accountability, and improvement are required | a project method or product-quality specification |
 
+## Structured improvement and learning
+
+| Candidate | Type and output | Use when | Avoid when |
+| --- | --- | --- | --- |
+| IHI Model for Improvement | improvement framework; aim, measures, change ideas, and PDSA learning loop | a team needs to test and implement changes quickly while tracking whether improvement is real and equitable | call a few unmeasured experiments a completed improvement program or ignore system constraints |
+| Run chart | time-series improvement artifact | process measures need a simple view of level, trend, shift, or run before formal control limits | treat every fluctuation as a special cause or use it without stable measurement definitions |
+| Driver diagram | causal improvement artifact | a team must connect an aim to primary/secondary drivers and change ideas | present assumed drivers as causal proof or turn the diagram into an exhaustive strategy |
+| 5S | workplace-organization method | safe, visible, repeatable work benefits from sorting, setting, cleaning, standardizing, and sustaining | use housekeeping as a proxy for flow, quality, or respect for workers |
+| Failure demand analysis | service-improvement analysis | avoidable contacts, rework, complaints, or repeat demand consume capacity | classify all demand as failure or optimize contact volume without resolving the cause |
+| Hoshin Kanri catchball | strategy deployment method | strategic priorities must translate into aligned local objectives, measures, review, and learning | cascade targets without negotiation, capacity, or countermeasures |
+
 ## Operations, service, and resilience
 
 | Candidate | Type and output | Use when | Avoid when |
@@ -67,3 +78,4 @@ Use this catalog when repeatable work must be discovered, flowed, controlled, im
 - IEEE Task Force on Process Mining and the Process Mining Manifesto.
 - Google SRE books for SLOs, incident response, toil, overload, and canarying.
 - Principles of Chaos Engineering for the canonical experimental framing.
+- [IHI Model for Improvement](https://www.ihi.org/library/model-for-improvement) and the Improvement Guide for aim-setting, measures, change ideas, PDSA testing, implementation, and spread.
