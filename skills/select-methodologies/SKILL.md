@@ -104,6 +104,7 @@ Read only the files needed:
 | Asset management, criticality, maintenance strategy, RCM, RBI, condition monitoring, spares, obsolescence, or lifecycle renewal | `references/34-asset-maintenance-reliability.md` |
 | Human factors, ergonomics, human-systems integration, workload, medical devices, clinical evidence, usability engineering, or medical QMS | `references/35-human-factors-health-medical-devices.md` |
 | Construction, infrastructure, BIM, ISO 19650, constructability, Last Planner, commissioning, or built-asset handover | `references/36-construction-infrastructure-bim.md` |
+| Urban, territorial, regional, land-use, mobility, public-space, or place-based planning | `references/38-urban-territorial-planning.md` |
 
 For a cross-domain problem, begin with the primary decision catalog and at most two adjacent domain catalogs. Add another only when a selected fragment is canonically owned there or a material hard gate remains uncovered. Route by decision and missing capability, not by every noun in the prompt. `references/10-composition-patterns.md` and `references/11-source-registry.md` do not count as domain catalogs. Do not load all references by default.
 

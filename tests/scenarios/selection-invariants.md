@@ -32,6 +32,12 @@ These scenarios define behavioral expectations for future agent evaluations. The
 
 **Expected invariants:** Route generic sampling, missing-data, repeated-measures, and uncertainty methods to the statistics catalog; route clinical evidence, safety, and jurisdictional requirements to the health/medical-device catalog. Do not duplicate the generic method card. Create a health specialization only when the clinical estimand, authority, measurement system, or validation boundary changes.
 
+## Urban planning routing
+
+**Prompt:** Develop a climate-resilient transit-oriented redevelopment plan for a low-income neighborhood.
+
+**Expected invariants:** Route plan-making, land-use, mobility integration, participation, displacement, and place-based implementation to urban/territorial planning; use geospatial, climate, health, construction, finance, and participation catalogs only for specific gates or distinct outputs. Do not treat a suitability map, workshop, or climate scenario as the plan itself.
+
 ## Subtraction test
 
 **Prompt:** Recommend a complete stack for an auditable public-source investigation.

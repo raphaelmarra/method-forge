@@ -127,6 +127,7 @@ When the same family appears in multiple catalogs, retrieve its generic definiti
 | Asset management, maintenance, inspection, condition monitoring, spares, and renewal | `34-asset-maintenance-reliability.md` | manufacturing equipment in `14`; built-asset handover in `36` |
 | Human factors, ergonomics, medical devices, and clinical-device evidence | `35-human-factors-health-medical-devices.md` | UX in `20`; product realization in `14`; health regulation in `13` |
 | Construction, infrastructure, BIM, constructability, and commissioning | `36-construction-infrastructure-bim.md` | project controls in `30`; asset operations in `34`; physical engineering in `14` |
+| Urban, territorial, regional, land-use, mobility, public-space, and place-based planning | `38-urban-territorial-planning.md` | geospatial data/models in `33`; construction/BIM in `36`; participation in `24`; climate resilience in `15`/`21`/`32` |
 | LCA, environmental claims, TEA, industrial processes | `15-sustainability-circular-energy.md` | agricultural sustainability in `17` |
 | Supply chains, inventory, logistics, reverse networks, and traceability | `16-supply-chain-logistics.md` | circular feedstock/recovery in `15`; spatial network design in `33` |
 | Geospatial data, spatial analysis/econometrics, remote sensing, and location decisions | `33-geospatial-location-analysis.md` | route/facility operations in `16`; causal inference in `08`; investigations in `31` |

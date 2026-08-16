@@ -48,6 +48,7 @@ Use this registry to begin research. Open the owner page and verify current stab
 | DMN | `omg.org/spec/DMN` | 1.5 formal; later beta material must not be called formal |
 | APQC PCF | `apqc.org/process-frameworks` | live cross-industry/industry collection; check current edition |
 | Quality management | `iso.org/standard/62085.html` | ISO 9001:2015 plus amendments remained current; 2026 revision status must be checked |
+| Quality improvement | IHI Model for Improvement; Langley et al., *The Improvement Guide* | improvement framework with PDSA testing; separate learning cycles from causal impact evaluation |
 | Risk management | `iso.org/standard/65694.html` | ISO 31000:2018 |
 | Knowledge management | `iso.org/standard/68683.html` | ISO 30401:2018 with amendments; revision under development at check date |
 | Human-centred design | ISO 9241-210 owner page | verify current edition/status |
@@ -101,6 +102,8 @@ Use this registry to begin research. Open the owner page and verify current stab
 | MCDA | UK Government Analysis Function / Green Book guidance | authoritative public analytical guidance; choose technique contextually |
 | Causal evaluation | World Bank *Impact Evaluation in Practice*; PyWhy/DoWhy; primary econometrics literature | software workflow does not prove identification assumptions |
 | General statistics and probability | `itl.nist.gov/div898/handbook/`; ASA Ethical Guidelines; relevant primary design and measurement literature | generic statistical methods; verify domain, sampling, estimand, measurement, and jurisdictional requirements before use |
+| Program monitoring and evaluation | USAID Logframe guidance; IDRC Outcome Mapping; OECD DAC criteria | planning and learning methods; do not treat a logic model, behavioral outcome, or story as causal proof |
+| Urban and territorial planning | UN-Habitat International Guidelines on Urban and Territorial Planning; Citywide Strategic Planning; Our City Plans | planning principles and process anchors; local planning law, authority, land rights, and infrastructure capacity govern applicability |
 
 ## Finance, markets, audit, and procurement
 
@@ -121,6 +124,7 @@ Use this registry to begin research. Open the owner page and verify current stab
 | Compliance management | `iso.org/standard/75080.html` and ISO 37302 owner page | ISO 37301:2021 plus Amendment 1:2024; ISO 37302:2025 effectiveness guidance |
 | Regulatory impact assessment | OECD Regulatory Impact Assessment principles; controlling jurisdictional procedure | cross-jurisdiction analytical anchor; local authority and law govern applicability |
 | Human rights and responsible business | UN Guiding Principles on Business and Human Rights; OECD Guidelines for Multinational Enterprises | authoritative general anchors; apply current binding jurisdictional duties separately |
+| Health technology assessment and clinical guidance | WHO HTA resources; AGREE II instrument; GRADE ecosystem | multidisciplinary adoption/evidence appraisal; jurisdictional clinical, regulatory, and ethics requirements remain controlling |
 | Management-system auditing | ISO 19011 owner page | ISO 19011:2026 current; verify sector-specific competence and audit criteria |
 | Business continuity | `iso.org/standard/75106.html` | ISO 22301:2019 plus Amendment 1:2024 current; later draft is not a replacement |
 | Crisis and incident management | ISO 22361:2022; ISO 22320:2018; NIST SP 800-61 Rev. 3 | distinguish strategic crisis leadership, cross-agency incident management, and cyber response |
@@ -147,6 +151,7 @@ Use this registry to begin research. Open the owner page and verify current stab
 | Family | Canonical research anchor | Status note at check date |
 | --- | --- | --- |
 | Environmental management | `iso.org/standard/14001` | ISO 14001:2026 published and current; ISO 14001:2015 withdrawn |
+| Climate risk and adaptation | IPCC AR6 Synthesis Report and relevant Working Group reports | assessment anchor; local hazard, exposure, vulnerability, authority, and adaptation feasibility require context-specific evidence |
 | Life-cycle assessment | ISO 14040 and ISO 14044 owner pages | 2006 base editions with applicable amendments; functional unit, system boundary, allocation, and review determine validity |
 | Circular economy | ISO 59004, ISO 59010, and ISO 59020 owner pages | 2024 principles, transition, and measurement standards; circularity is not environmental proof |
 | GHG accounting | GHG Protocol standards and guidance; ISO 14064-1 and ISO 14067 | distinguish organization, scope, product, project, and avoided-emissions claims |

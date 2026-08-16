@@ -59,6 +59,12 @@ For every legal conclusion state: `jurisdiction | issue | law-as-of date | contr
 | Test and Learn / adaptive policy | adaptive implementation/evaluation approach | uncertainty is material, rollout can be staged safely, and feedback can change policy | experimentation exposes groups to unacceptable harm or operational changes destroy inference without documentation |
 | Analytical Quality Assurance — AQA | assurance framework | models and analyses materially influence public decisions and need proportional independent challenge | a review checklist substitutes for competent replication, data checks, and decision accountability |
 
+| Logical Framework Approach / Logframe | program-design and monitoring method | inputs, activities, outputs, outcomes, assumptions, indicators, and responsibilities need one testable project logic | complete a matrix as paperwork, hide uncertainty in assumptions, or treat logical links as causal proof |
+| Results-Based Management | management and learning framework | resources, outputs, outcomes, indicators, risks, and adaptive decisions must connect across a program cycle | reduce complex change to target compliance or reward reporting volume over learning |
+| Outcome Mapping | participatory planning, monitoring, and evaluation method | change depends on behavior, relationships, and boundary partners beyond one agency's control | claim population impact from observed behavioral markers or ignore contribution and context |
+| Most Significant Change | qualitative outcome-learning technique | diverse stakeholders need to surface unexpected, valued, or contested changes and explain why they matter | use selected stories as prevalence estimates, suppress negative cases, or replace systematic monitoring |
+| Evidence-to-Decision framework | deliberative decision artifact/process | evidence, benefits, harms, values, equity, acceptability, feasibility, and implementation must be made explicit | treat a recommendation as a mechanical consequence of evidence certainty |
+
 ## Ethics, human rights, and responsible innovation
 
 | Candidate | Type and output | Use when | Avoid when |
@@ -100,6 +106,8 @@ Escalate consequential interpretation, filings, strategy, rights, liability, or 
 Status checked 2026-08-12. Always live-check jurisdictional sources and effective dates.
 
 - [OECD Regulatory Impact Assessment principles](https://www.oecd.org/en/publications/regulatory-impact-assessment_7a9638cb-en.html) are the canonical cross-jurisdiction RIA anchor; local law and procedure control.
+- [USAID Logical Framework guide](https://www.usaid.gov/sites/default/files/2022-05/The-Logical-Framework-A-Managers-Guide.pdf) is a source anchor for the Logframe as a design-and-evaluation aid, not a guarantee of causality.
+- [IDRC Outcome Mapping](https://idrc-crdi.ca/en/books/outcome-mapping-building-learning-and-reflection-development-programs) anchors behavior/relationship-centered planning, monitoring, and contribution learning in complex development programs.
 - [ISO 37301:2021](https://www.iso.org/standard/75080.html) plus Amendment 1:2024 remains the compliance-management requirements standard; ISO 37302:2025 provides effectiveness guidance.
 - ISO 19011:2026 is the current management-system audit guidance; do not cite the superseded 2018 edition as current.
 - [UN Guiding Principles on Business and Human Rights](https://www.ohchr.org/sites/default/files/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf) and the 2023 OECD Guidelines for Multinational Enterprises are authoritative general responsible-business anchors; apply current jurisdictional duties.

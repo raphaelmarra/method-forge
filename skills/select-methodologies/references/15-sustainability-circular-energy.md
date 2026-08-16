@@ -75,6 +75,16 @@ Use this catalog when environmental impact, circular value retention, resource f
 | Capacity-expansion / dispatch modeling | optimization and simulation family; portfolios, operations, constraints, and system costs | energy assets interact over time through demand, networks, storage, and policy constraints | temporal/spatial resolution or reliability constraints are too coarse for the claimed decision |
 | HAZOP → LOPA → SIL verification | process-safety composition | deviations, safeguards, protection layers, and instrumented risk reduction must be evaluated | append safety analysis after design freeze or use LOPA as a substitute for hazard discovery; see `06-testing-reliability-safety-security.md` |
 
+## Climate risk, adaptation, and resilience
+
+| Candidate | Type and output | Use when | Avoid when |
+| --- | --- | --- | --- |
+| Climate risk and vulnerability assessment | risk-assessment family; hazard, exposure, vulnerability, capacity, impacts, and residual risk | climate hazards can change assets, ecosystems, livelihoods, services, or investment choices | treat a climate scenario as a local forecast or omit exposure, adaptive capacity, and uncertainty |
+| Climate-resilient development | integrated planning framework | mitigation, adaptation, development, equity, and feasibility must be considered together | label any low-carbon project climate-resilient without testing trade-offs and lock-in |
+| Adaptation pathways | adaptive planning method | actions have thresholds, lead times, path dependencies, and transfer points under changing conditions | propose a static adaptation list without triggers, monitoring, or option value |
+| Climate stress testing | scenario-based assurance method | portfolios, infrastructure, supply chains, or services need vulnerability across plausible hazards and socioeconomic futures | report one deterministic temperature or hazard case as a full risk assessment |
+| Nature-based solutions assessment | intervention appraisal family | ecosystem-based measures may reduce risk while producing biodiversity and social outcomes | count co-benefits without permanence, land-rights, maintenance, or counterfactual evidence |
+
 ## Selection boundaries and composition patterns
 
 | Question | Primary method | Common complements |
@@ -110,3 +120,4 @@ Status checked 2026-08-12.
 - [U.S. DOE LCA and TEA training](https://www.energy.gov/cmei/ito/life-cycle-assessment-and-techno-economic-analysis-training) provides a public implementation anchor for functional units, benchmarks, manufacturing costs, and early-stage analysis.
 - [CCPS](https://ccps.aiche.org/) is the principal process-safety implementation anchor for HAZOP, LOPA, quantitative risk, and protection-layer practice.
 - Use the UNEP economy-wide material-flow manuals and database for macro MFA. Label organizational circularity, product impact, and economy-wide resource accounting as different units of analysis.
+- [IPCC AR6 Synthesis Report](https://www.ipcc.ch/report/ar6/syr/) is the primary climate-risk and response anchor; use the relevant Working Group assessment for hazards, impacts/adaptation, or mitigation rather than treating the synthesis as a project method.

@@ -32,6 +32,17 @@ Use this catalog when human–system performance, physical/cognitive ergonomics,
 | Production acceptance and release | controlled assurance activities | approved criteria, validated processes, batch/device records, deviations, and authorized disposition support release | PPAP/FAI analogies substitute for applicable QMS/product/process requirements |
 | Clinical evidence / GRADE / target trial methods | evidence family | safety/effectiveness claims depend on clinical question, study design, bias, precision, applicability, and synthesis | mechanistic plausibility, uncontrolled case series, or regulatory authorization proves comparative effectiveness |
 
+## Health systems and clinical guidance
+
+| Candidate | Type and output | Use when | Avoid when |
+| --- | --- | --- | --- |
+| Health Technology Assessment (HTA) | multidisciplinary appraisal method | clinical, economic, ethical, organizational, equity, and social consequences must inform adoption, reimbursement, or disinvestment | reduce HTA to cost-effectiveness or treat a manufacturer dossier as an independent assessment |
+| Health needs assessment | population-health planning method | burden, unmet need, inequalities, service capacity, evidence, and priorities must guide resource allocation | equate observed service demand with need or omit access and prevention |
+| Clinical practice guideline development | evidence-to-recommendation lifecycle | evidence must become transparent recommendations with scope, values, benefits, harms, feasibility, and update rules | copy a guideline across jurisdictions or treat consensus without evidence appraisal as sufficient |
+| AGREE II | guideline-appraisal instrument | rigor, scope, stakeholder involvement, clarity, applicability, and editorial independence of a guideline need review | use an appraisal score as proof that recommendations are correct or locally applicable |
+| Evidence-to-Decision | deliberative recommendation framework | certainty, benefits, harms, values, equity, acceptability, and feasibility must be visible before a recommendation | hide value judgments behind evidence grades or skip stakeholder/implementation context |
+| Clinical pathway / care pathway | service-coordination method | evidence, roles, transitions, variation, escalation, and outcomes must be coordinated across a care process | turn a pathway into a rigid protocol that ignores clinical judgment, patient preference, or local capacity |
+
 ## Composition pattern
 
 `jurisdiction/classification/intended use → QMS + design controls → clinical/user needs → ISO 14971 risk → usability/biological/software specialists → traceable design V&V → process validation/transfer → clinical/regulatory evidence → authorized production release → postmarket surveillance/CAPA`
@@ -43,3 +54,5 @@ Status checked 2026-08-12.
 - ISO 9241-210 remains the human-centred-design anchor; ISO 6385/26800 frame ergonomic work-system design. Check the exact edition and national adoption before conformity claims.
 - [ISO 13485:2016](https://www.iso.org/standard/59752.html), ISO 14971:2019, IEC 62366-1, ISO 10993-1:2025, ISO 14155:2026, and IEC 62304 are current owner-page anchors subject to regulatory recognition/transition by jurisdiction.
 - [FDA Quality Management System Regulation](https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr) became effective in 2026; its applicability and enforcement details must be checked live.
+- [WHO health technology assessment](https://www.who.int/health-topics/health-technology-assessment) defines HTA as a multidisciplinary evaluation that supports health-system policy decisions; the 2025 WHO medical-device edition covers clinical, economic, ethical, and social implications.
+- [AGREE II](https://www.nccmt.ca/knowledge-repositories/search/100) is an appraisal instrument for the methodological rigor and transparency of clinical-practice guidelines, not a clinical recommendation method.
