@@ -79,10 +79,34 @@ Use this catalog to choose how confidence will be earned, not merely asserted. S
 | Event Tree Analysis (ETA) | forward consequence analysis | initiating events branch through barrier success/failure to outcomes | state dependencies violate simple branch assumptions |
 | HAZOP | structured deviation analysis | process parameters and guidewords can reveal hazardous deviations | software/control intent lacks meaningful process variables without adaptation |
 | STPA | systems-theoretic hazard analysis | unsafe control actions, inadequate constraints, software/human interaction, and emergent behavior matter | low-risk simple component defect analysis |
+| [Functional Resonance Analysis Method — FRAM](#functional-resonance-analysis-method--fram) | systemic functional analysis; variability and couplings in work-as-done | everyday adaptations and interactions may combine into successful or harmful outcomes | a static diagram is expected to prove causality, predict event probabilities, or satisfy safety assurance by itself |
 | Bow-Tie Analysis | barrier-risk visualization | threats, top event, consequences, preventive and mitigative barriers need one view | quantitative proof or complex feedback dynamics |
 | Safety Integrity Levels / assurance levels | risk-classification/control scheme family | domain standards require rigor proportionate to hazardous failure | invent generic SILs outside the applicable sector standard |
 | Independent V&V | governance/assurance practice | consequences and conflicts of interest justify organizational independence | independence exists only on an org chart without technical authority/evidence access |
 | Safety Case | assurance case for safety | regulator/stakeholders need explicit claims, argument, evidence, context, and defeaters | document created after design solely for approval |
+
+### Functional Resonance Analysis Method — FRAM
+
+- **Type / domain / lifecycle role / stack role:** systemic functional analysis method / sociotechnical systems, safety, and resilience / design exploration, operational learning, and event analysis / explanation and intervention design.
+- **Purpose and output:** understand how ordinary performance variability combines across functions. Produce a bounded function model, evidence-backed variability descriptions, scenario/event instantiations showing relevant couplings, and monitored intervention proposals. The general model describes potential couplings; an instantiation identifies those relevant to a particular situation.
+- **Use when:** everyday adjustments, coordination, resources, and timing may explain successful or harmful outcomes, and practitioners/work evidence can support a functional account beyond a linear failure chain.
+- **Do not use when:** only a simple component failure needs analysis, evidence cannot distinguish modeled assumptions from actual work, or a quantified risk estimate, proven event cause, or compliance claim is expected from a FRAM diagram alone.
+- **Preconditions and required capability:** bounded question/system, access to work-as-done evidence and practitioners, explicit scenario/context, and facilitation able to characterize functions without treating adaptation as operator failure. Proposed future work must be labeled as such.
+- **Typical procedure:**
+  1. Frame the decision and boundary; gather everyday work evidence, including successful operation and adaptations.
+  2. Identify functions needed for activity, starting broadly before refining detail. Describe relevant aspects: Input, Output, Preconditions, Resources, Control, and Time; not every function needs all six filled.
+  3. Trace output couplings to other functions' input, preconditions, resources, control, or time. Account for relevant external sources/receivers with explicit boundary/background functions; justify what is fixed for this analysis.
+  4. Characterize evidence-supported potential variability and context, often including timing and precision. Separate observation from analyst hypothesis.
+  5. Instantiate the model for representative scenarios or a documented event; examine how coupled variability may be amplified or attenuated. Do not infer actual couplings solely from potential ones in the general model.
+  6. Design controls, buffers, monitoring, or resource/coordination changes that preserve necessary adaptation; review with practitioners and evaluate effects under representative conditions.
+- **Complements:** [human-factors work analysis](35-human-factors-health-medical-devices.md#human-factors-and-ergonomics) supplies work evidence; process improvement implements interventions; independent hazard analysis and assurance establish additional safety claims.
+- **Alternatives or variants:** STPA analyzes unsafe control actions/constraints; FMEA analyzes failure effects; HTA represents goal/task hierarchy; BPMN represents process flow. These are different outputs. FRAM Model Visualiser is optional tooling; quantitative simulation extensions require their own assumptions and validation.
+- **Failure modes and gaming risks:** rename process boxes as functions without aspects; treat every coupling as observed cause; fill all six aspects mechanically; equate variability with error; invent probabilities; freeze adaptive work indiscriminately; label a model itself as validated risk reduction.
+- **Adoption cost:** medium for bounded qualitative modeling; high for multiple actors/scenarios, evidence collection, and intervention evaluation.
+- **Maturity:** established method; no universal normative edition or assurance certification implied.
+- **Canonical research anchors:** author/community guidance on [building a FRAM model](https://functionalresonance.com/how-to-build-a-fram-model/) and [basic principles](https://functionalresonance.com/basic-principles/).
+- **Current version/status checked on:** 2026-09-12. Official procedure and principles consulted; tool releases are not method editions.
+- **Evidence and unresolved questions:** the four principles concern equivalence of success/failure, approximate adjustments, emergence, and functional resonance. Modeling relies on evidence quality, boundary choices, and analyst judgment; the guidance establishes method structure, not universal causal validity or intervention effectiveness.
 
 ## Reliability engineering
 

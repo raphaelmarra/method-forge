@@ -6,14 +6,15 @@ Use this catalog when the decision concerns understanding people and contexts, s
 
 1. Design framing and lifecycle
 2. Design and user research
-3. Synthesis, information architecture, and interaction
-4. Prototyping and usability evaluation
-5. Service and experience design
-6. Visual, information, and communication design
-7. Inclusive design and accessibility
-8. Design systems and design operations
-9. Boundaries and composition patterns
-10. Research anchors and status
+3. Predictive modeling of skilled interaction
+4. Synthesis, information architecture, and interaction
+5. Prototyping and usability evaluation
+6. Service and experience design
+7. Visual, information, and communication design
+8. Inclusive design and accessibility
+9. Design systems and design operations
+10. Boundaries and composition patterns
+11. Research anchors and status
 
 ## Design framing and lifecycle
 
@@ -45,13 +46,42 @@ Use this catalog when the decision concerns understanding people and contexts, s
 | Focus group | facilitated group-research method | social language, norms, reactions, and concept diversity are relevant | sensitive individual behavior, usability, prevalence, consensus, or dominant voices distort the question |
 | Generative / co-creation session | exploratory method | participants can externalize needs, experiences, metaphors, or future possibilities through making | creative artifacts are treated as prioritized requirements or realistic adoption evidence |
 | Critical incident technique | structured recall method | unusually successful/failed episodes can reveal triggers, actions, context, and consequences | ordinary frequency/base rates or prospective behavior is inferred from memorable incidents alone |
-| Task analysis | analysis method; goals, actions, conditions, information, dependencies, and error opportunities | workflows must become design requirements or evaluation tasks | adaptive/knowledge work is forced into one ideal linear sequence; cognitive specialization in `35` |
+| Task analysis for UX | linked analysis method; inherit [HTA and CTA](35-human-factors-health-medical-devices.md#task-analysis-canonical-cards-and-selection), then derive interaction/information requirements and evaluation tasks | goals/plans or expert cues/decisions must inform interface, content, or recovery design | adaptive work is forced into one ideal linear sequence, a hierarchy predicts usability, or a cognitive walkthrough is treated as elicitation of expert cognition |
 | Mental-model elicitation | research/synthesis family | users' concepts, causal beliefs, categories, and expectations affect comprehension and navigation | analyst diagram is called the user's model or misconceptions are preserved despite safety/domain truth |
 | Survey research for design | quantitative self-report specialization | prevalence, attitudes, satisfaction, segmentation, or tracking requires a defensible instrument and sample | convenience responses prove behavior, causality, usability, or unmet need severity; generic survey design and evidence ownership belong to `31-research-evidence-investigation.md` |
 | Concept testing | evaluative research family | alternative value propositions, concepts, comprehension, relevance, and concerns need early evidence | stated liking predicts purchase, use, feasibility, or safety |
 | Research repository / insight governance | knowledge system | findings, evidence, participants, decisions, contradictions, freshness, and reuse need controlled access | quote library becomes truth without provenance, scope, negative findings, consent, and retention controls |
 
 Recruit participants by the target population and relevant capability/context—not convenient demographics alone. Separate user, purchaser, operator, administrator, supporter, bystander, and person bearing risk. Include nonusers, abandonment, assistive-technology use, low literacy, adverse cases, and edge conditions when material.
+
+## Predictive modeling of skilled interaction
+
+| Candidate | Type and output | Use when | Avoid when |
+| --- | --- | --- | --- |
+| [GOMS family / KLM](#goms-and-klm) | analytical interaction-model family; specified methods and modeled execution time | detailed alternatives for practiced tasks must be compared with declared operators and assumptions | learning, errors, open-ended problem solving, accessibility, or observed outcomes are inferred from a routine execution-time estimate |
+
+### GOMS and KLM
+
+- **Type / domain / lifecycle role / stack role:** Goals, Operators, Methods, and Selection rules (GOMS) / interaction design and human-computer interaction / detailed design and comparison / predictive analysis. Keystroke-Level Model (KLM) is a simplified model for execution time within this ecosystem.
+- **Purpose and output:** describe how specified goals are achieved by methods/operators and, where alternatives exist, selection rules. For KLM, produce a scenario/method-specific operator sequence, sourced durations, assumptions, waiting treatment, and modeled expert execution time; compare equivalent task outcomes.
+- **Use when:** interfaces and a practiced user method are specified sufficiently to enumerate operations, and an estimate or comparison of routine execution time will inform a design decision.
+- **Do not use when:** the needed outcome is novice learning, error probability, complex diagnosis, user satisfaction, accessibility, or measured real-world performance; do not model unconstrained decisions as a fixed mental-preparation cost.
+- **Preconditions and required capability:** representative scenarios, specified interface/input device, experienced performer assumptions, explicit chosen method, applicable operator definitions/durations, and an analyst able to justify mental-operator placement. Record excluded interruptions, errors, and learning.
+- **Typical procedure:**
+  1. Define equivalent task goals, scenario, start/end state, interface alternatives, and assumed performer expertise.
+  2. Choose the GOMS technique by output and concurrency/learning assumptions; specify methods and selection rules where relevant. For KLM, assume a known practiced method and error-free execution.
+  3. Enumerate physical operators using the chosen protocol: K for keystrokes, P for pointing, B for button press/release, H for homing in Kieras's guide. Document notation differences across sources.
+  4. Insert M operators for routine mental preparation using the selected placement/chunking rules. Model only waiting that blocks the user; Kieras uses W(t), while other descriptions use response-time notation. Avoid counting overlapping work and latency twice.
+  5. Source or calibrate durations for the relevant device, task, and population; document assumptions and sensitivity rather than silently reuse universal constants.
+  6. Sum the KLM sequence under those assumptions, compare equivalent methods, and check decisive predictions with representative users. Keep measured values and modeled estimates separate.
+- **Complements:** [HTA](35-human-factors-health-medical-devices.md#hierarchical-task-analysis--hta) establishes goal/task structure; usability observation tests actual behavior; accessibility and error/recovery evaluation answer distinct quality questions.
+- **Alternatives or variants:** CMN-GOMS, NGOMSL, and CPM-GOMS differ in representation and modeling capability. NGOMSL supports specific learning-time analyses; CPM-GOMS handles overlapping perceptual, cognitive, and motor activity. Consult their own protocols; these capabilities are not properties of every GOMS model or of simple KLM. Empirical task timing is preferable when directly observable performance is the required evidence.
+- **Failure modes and gaming risks:** omit selection rules or assume the designer's fastest method is used; ignore errors/interruptions; place M before every click; charge total backend latency despite overlap; transplant unsupported timing constants; report predicted savings as achieved outcomes.
+- **Adoption cost:** medium for bounded KLM comparison; higher for elaborate GOMS variants, model calibration, and concurrent interaction.
+- **Maturity:** established analytical family; applicable model/protocol matters more than a generic version label.
+- **Canonical research anchors:** [Card, Moran, and Newell (1980)](https://doi.org/10.1145/358886.358895); [Kieras's full KLM guide (2001)](https://web.eecs.umich.edu/~kieras/docs/GOMS/KLM.pdf); [John and Kieras (1996)](https://doi.org/10.1145/235833.236050); UXPA [GOMS](https://www.usabilitybok.org/goms) and [KLM](https://www.usabilitybok.org/klm-goms).
+- **Current version/status checked on:** 2026-09-12. Author's KLM guide and professional guidance consulted; original paper identities verified.
+- **Evidence and unresolved questions:** estimates are conditional on method, operator timing, expertise, and model assumptions. The original ACM full texts were not consulted; no universal timing accuracy, learning benefit, or design effectiveness is claimed.
 
 ## Synthesis, information architecture, and interaction
 

@@ -44,6 +44,30 @@ These scenarios define behavioral expectations for future agent evaluations. The
 
 **Expected invariants:** Every selected fragment must produce a distinct consumed output. The response should remove any element whose absence causes no material loss and preserve verified, rejected, and possible evidence states.
 
+## Task structure and expert cognition
+
+**Prompt:** Choose methods to document an operational task and understand expert diagnostic judgments for training.
+
+**Expected invariants:** Route HTA and CTA to human factors. HTA requires goals, operations, and execution plans; CTA requires practitioner/work evidence for cues and cognitive demands. Use one or both only when their distinct outputs are consumed. Distinguish task HTA from Health Technology Assessment and do not claim exact ACTA/CDM replication without the selected protocol.
+
+## Credible task errors and recovery
+
+**Prompt:** We have a practitioner-reviewed HTA of an equipment setup task. Identify likely mistakes and recovery opportunities.
+
+**Expected invariants:** Select SHERPA in human factors; connect each credible mode to task context, consequences, recovery, evidence, and owned remedies. Keep ordinal likelihood separate from severity. Do not invent numerical probabilities or treat a worksheet or remedy proposal as proof of improved safety.
+
+## Practiced interaction timing and its boundary
+
+**Prompt:** Compare two fully specified interfaces for a routine task by experienced users, then estimate how quickly novices learn complex troubleshooting.
+
+**Expected invariants:** KLM can support the routine execution comparison with an explicit method, sourced timings, justified mental operators, and only blocking waiting. It cannot establish novice learning or complex diagnostic time. Distinguish other GOMS variants from simple KLM and modeled savings from measured outcomes.
+
+## Functional variability and instantiation
+
+**Prompt:** Successful everyday coordination sometimes produces harmful delays across a sociotechnical operation. Investigate how adaptations interact.
+
+**Expected invariants:** Consider FRAM in safety/systems using work-as-done evidence, relevant function aspects, and scenario instantiations. Account for couplings to preconditions, resources, control, and time as well as input. Do not fill all six aspects mechanically or infer actual event cause or probabilities from potential couplings alone.
+
 ## Repository model organization
 
 **Prompt:** Add or revise a method that could be relevant to more than one domain catalog.

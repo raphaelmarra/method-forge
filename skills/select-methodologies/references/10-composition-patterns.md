@@ -148,6 +148,22 @@ Use bioremediation only for contaminant treatment. It is not a substitute name f
 
 Satisfaction is not learning, learning is not workplace transfer, and transfer is not causal proof of operational impact.
 
+### Understand work before designing procedures, training, or decision support
+
+`bounded goal + representative work evidence → HTA when goals/operations/plans need structure → CTA on judgment-intensive decisions when expert cues/strategies need elicitation → practitioner review + evidence triangulation → procedure/interface/job aid or training requirements → representative-task evaluation`
+
+Use the canonical [HTA and CTA cards](35-human-factors-health-medical-devices.md#task-analysis-canonical-cards-and-selection). Select either method alone when its output is sufficient; their order is a possible composition, not a compulsory pipeline. Without practitioner/work evidence, stop at a provisional model and collection plan. HTA does not establish error probabilities, and CTA testimony does not establish improved outcomes or safety.
+
+### Analyze task errors, skilled interaction, or functional variability
+
+Choose only the output needed; these are separate optional compositions:
+
+- `validated HTA + work evidence → SHERPA credible errors/consequences/recovery → owned design and organizational remedies → representative control/recovery evaluation`. Use the [SHERPA card](35-human-factors-health-medical-devices.md#sherpa); ordinal judgments are not calibrated probabilities.
+- `specified interface + practiced user method → GOMS/KLM operator sequence + sourced durations and assumptions → equivalent-method comparison → user validation of decisive predictions`. Use the [GOMS/KLM card](20-design-experience-communication.md#goms-and-klm); modeled execution time does not establish learning, accessibility, error rates, or achieved savings.
+- `observed everyday work → FRAM function/aspect model → scenario instantiations → evidence-backed variability/coupling analysis → monitored interventions`. Use the [FRAM card](06-testing-reliability-safety-security.md#functional-resonance-analysis-method--fram); potential couplings do not prove actual causes or safety.
+
+If prerequisite evidence is missing, deliver a provisional model and collection plan rather than a definitive risk or performance conclusion.
+
 ### Launch and grow a market offer
 
 `decision + market evidence → STP/ICP/buying committee → positioning + claim–proof → experience/offer/price → GTM + route-to-market → launch-readiness gate → instrumented beachhead → acquisition + activation + retention → experiments/MMM → staged expansion`
