@@ -72,7 +72,7 @@ Read only the files needed:
 | Process discovery/design, adaptive flow, operations, service management, quality, or continuous improvement | `references/03-process-operations-quality.md` |
 | Software lifecycle, architecture, APIs, distributed systems, or delivery | `references/04-software-systems-architecture.md` |
 | Requirements, planning, formal specification, contracts, or state reasoning | `references/05-requirements-formal-planning.md` |
-| Verification, testing, reliability, safety, security, or assurance | `references/06-testing-reliability-safety-security.md` |
+| Verification, testing, reliability, safety, FRAM, sociotechnical performance variability, security, or assurance | `references/06-testing-reliability-safety-security.md` |
 | Data/information governance, metadata, semantics, knowledge management, data quality, lineage, or provenance | `references/07-data-information-knowledge.md` |
 | Decision analysis, optimization, uncertainty, or causal inference | `references/08-decision-optimization-causality.md` |
 | Probability, statistics, sampling, estimation, prediction, or statistical inference | `references/37-probability-statistics-inference.md` |
@@ -102,13 +102,17 @@ Read only the files needed:
 | Crisis leadership, organizational resilience, business continuity, BIA, incident/emergency management, disaster recovery, exercises, or recovery | `references/32-crisis-continuity-emergency-management.md` |
 | GIS, spatial-data quality, geocoding, spatial statistics/econometrics, remote sensing, service areas, suitability, or location decisions | `references/33-geospatial-location-analysis.md` |
 | Asset management, criticality, maintenance strategy, RCM, RBI, condition monitoring, spares, obsolescence, or lifecycle renewal | `references/34-asset-maintenance-reliability.md` |
-| Human factors, ergonomics, human-systems integration, workload, medical devices, clinical evidence, usability engineering, or medical QMS | `references/35-human-factors-health-medical-devices.md` |
+| Human factors, ergonomics, task/subgoal analysis, HTA, CTA, expert decisions/cues, human-systems integration, workload, medical devices, clinical evidence, usability engineering, or medical QMS | `references/35-human-factors-health-medical-devices.md` |
 | Construction, infrastructure, BIM, ISO 19650, constructability, Last Planner, commissioning, or built-asset handover | `references/36-construction-infrastructure-bim.md` |
 | Urban, territorial, regional, land-use, mobility, public-space, or place-based planning | `references/38-urban-territorial-planning.md` |
 
 For a cross-domain problem, begin with the primary decision catalog and at most two adjacent domain catalogs. Add another only when a selected fragment is canonically owned there or a material hard gate remains uncovered. Route by decision and missing capability, not by every noun in the prompt. `references/10-composition-patterns.md` and `references/11-source-registry.md` do not count as domain catalogs. Do not load all references by default.
 
 When a prompt says only “uncertainty,” identify the required output before routing: probability/statistical inference, decision choice, optimization, causal effect, forecast, risk treatment, or evidence confidence. Route statistical/probabilistic inference to `37`; route choices, optimization, causal identification, and decision robustness to `08`. Use both only when the statistical result is an input to a distinct decision or causal design.
+
+For task analysis, route goal/subgoal decomposition and execution plans to Hierarchical Task Analysis (HTA); route expert cues, judgments, strategies, and cognitive demands to Cognitive Task Analysis (CTA). Both are owned by `35`; use training (`18`) or UX (`20`) only for a distinct downstream design decision. Clarify ambiguous `HTA`: Health Technology Assessment is a different method in the same catalog. HTA is not Hierarchical Task Network (HTN) planning, and a cognitive walkthrough is not a substitute for eliciting expert cognition.
+
+For credible task errors and recovery, select SHERPA in `35` with an HTA and practitioner evidence. For modeled execution time of practiced, error-free interaction, select GOMS/KLM in `20` with a specified interface and user method. For variability and couplings in everyday sociotechnical work, select FRAM in `06` with work evidence and scenario instantiations. These outputs answer different questions; do not load or compose all three by default.
 
 ### 3. Build a role-aware longlist
 

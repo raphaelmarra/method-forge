@@ -132,6 +132,10 @@ When the same family appears in multiple catalogs, retrieve its generic definiti
 | Product realization and manufacturing readiness | `14-physical-engineering-manufacturing.md` | process scale-up in `15` |
 | Asset management, maintenance, inspection, condition monitoring, spares, and renewal | `34-asset-maintenance-reliability.md` | manufacturing equipment in `14`; built-asset handover in `36` |
 | Human factors, ergonomics, medical devices, and clinical-device evidence | `35-human-factors-health-medical-devices.md` | UX in `20`; product realization in `14`; health regulation in `13` |
+| Hierarchical Task Analysis (HTA), Cognitive Task Analysis (CTA), and expert task/decision elicitation | `35-human-factors-health-medical-devices.md` | training objectives/scenarios in `18`; interface/information requirements in `20`; workforce application in `25` |
+| SHERPA: task-based human-error prediction and recovery | `35-human-factors-health-medical-devices.md` | broader hazard analysis and assurance in `06`; interaction redesign in `20` |
+| GOMS family and Keystroke-Level Model (KLM): skilled interaction modeling | `20-design-experience-communication.md` | HTA task structure in `35`; measured usability/performance evidence remains distinct |
+| Functional Resonance Analysis Method (FRAM): performance variability and functional couplings | `06-testing-reliability-safety-security.md` | work-as-done evidence in `35`; process interventions in `03` |
 | Construction, infrastructure, BIM, constructability, and commissioning | `36-construction-infrastructure-bim.md` | project controls in `30`; asset operations in `34`; physical engineering in `14` |
 | Urban, territorial, regional, land-use, mobility, public-space, and place-based planning | `38-urban-territorial-planning.md` | geospatial data/models in `33`; construction/BIM in `36`; participation in `24`; climate resilience in `15`/`21`/`32` |
 | LCA, environmental claims, TEA, industrial processes | `15-sustainability-circular-energy.md` | agricultural sustainability in `17` |
